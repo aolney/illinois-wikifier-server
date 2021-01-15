@@ -10,7 +10,7 @@ Then unzip this repo at the base directory (where the wikifier readme is located
 
 `Wikifier2013/src/edu/illinois/cs/cogcomp/wikifier/apps/demo`
 
-Once the files are installed, rebuild the combined jar:
+Once the files are installed, rebuild the combined jar by replacing the original `pom.xml` with the new one, and executing:
 
 `mvn clean compile assembly:single`
 
